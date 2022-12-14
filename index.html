@@ -5,40 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arts & Crafts</title>
+    <title>WDS - Website Design System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./resources/css/index.css">
-    
-  </head>
 
   <body>
-    <header>
-      <h1>Dasmato's Arts & Crafts</h1>
-    </header>
-
-    <div class="brushes">
-      <h2>Brushes</h2>
-      <img src="./resources/images/hacksaw.jpeg" alt="Hacksaw Brushes">
-      <h3>Hacksaw Brushes</h3>
-      <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <span class="price">Starting at $3.00 / brush.</span></p>
+    <h1>My website Design Style Guide</h1>
+    <!-- Color section --> 
+    <div class="color-container">
+      <h2>Colors</h2>
+      <div class ="color-panel lightcoral">
+        <p class="color-label">LightCoral</p>
+        <p class="color-rgb">#F08080</p>
+      </div>
+      <div class ="color-panel forestgreen">
+        <p class="color-label">ForestGreen</p>
+        <p class="color-rgb">#228B22</p>
+      </div>
+      <div class ="color-panel lightskyblue">
+        <p class="color-label">LightSkyBlue</p>
+        <p class="color-rgb">#87CEFA</p>
+      </div>
+      <div class ="color-panel silver">
+        <p class="color-label">Silver</p>
+        <p class="color-rgb">#87CEFA</p>
+      </div>
+      <p>These colors are used most often, you can easily copy the hex code into CSS.</p>  
+    </div>
+    <!-- Font section --> 
+    <div class = "fonts-container">
+      <h2>Fonts</h2>
+      <div class = "font-panel roboto">
+        <h3>Roboto</h3>
+        <p class = "font-regular">The quick brown fox jumps over the lazy dog</p>
+        <p class = "font-bold">The quick brown fox jumps over the lazy dog</p>
+        <p class = "font-italic">The quick brown fox jumps over the lazy dog</p>
+      </div>
+      <div class = "font-panel sourcesanspro">
+        <h3>Source Sans Pro</h3>
+        <p class = "font-regular">The quick brown fox jumps over the lazy dog</p>
+        <p class = "font-bold">The quick brown fox jumps over the lazy dog</p>
+        <p class = "font-italic">The quick brown fox jumps over the lazy dog</p>
+      </div>
+      <div class = "font-panel opensans">
+        <h3>Open Sans</h3>
+        <p class = "font-regular">The quick brown fox jumps over the lazy dog</p>
+        <p class = "font-bold">The quick brown fox jumps over the lazy dog</p>
+        <p class = "font-italic">The quick brown fox jumps over the lazy dog</p>
+      </div>
+    </div>
+    <!-- Text Styles -->
+    <div class = "style-container">
+      <h2>Text Styles</h2>
+      <div>
+        <h3 class="h1">h1: Main page heading</h3>
+        <ul>
+          <li>Font-weight: 700 (bold)</li>
+          <li>Font-size: 26px</li>
+          <li>Font-family: Roboto</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="h2">h2: section header</h3>
+        <ul>
+          <li>Font-weight: 500</li>
+          <li>Font-size: 18px</li>
+          <li>Font-family: Open Sans</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="h3">h3: Subheader</h3>
+        <ul>
+          <li>Font-weight: 400 (regular)</li>
+          <li>Font-size: 14px</li>
+          <li>Font-family: Arial</li>
+        </ul>
+      </div>
+      <div>
+        <h3  class="p">p: Paragraph text</h3>
+        <ul>
+          <li>Font-weight: 400 (regular)</li>
+          <li>Font-size: 14px</li>
+          <li>Font-family: Arial</li>
+        </ul>
+      </div>
 
     </div>
 
-    <div class="frames">
-      <h2>Frames</h2>
-      <img src="./resources/images/frames.jpeg" alt="Art Frames">
-      <h3>Art Frames (assorted)</h3>
-      <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="price">Starting at $2.00 / frame.</span></p>
-
-    </div>
-
-    <div class="paint">
-      <h2>Paint</h2>
-      <img src="./resources/images/finnish.jpeg" alt="Clean Finnish Paint">
-      <h3>Clean Finnish Paint</h3>
-      <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <span class="price">Starting at $5.00 / tube.</span></p>
-
-    </div>
 
   </body>
-
 </html>
