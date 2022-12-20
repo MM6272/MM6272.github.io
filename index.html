@@ -1,99 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDS - Website Design System</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./resources/css/index.css">
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+  </head>
 
   <body>
-    <h1>My website Design Style Guide</h1>
-    <!-- Color section --> 
-    <div class="color-container">
-      <h2>Colors</h2>
-      <div class ="color-panel lightcoral">
-        <p class="color-label">LightCoral</p>
-        <p class="color-rgb">#F08080</p>
-      </div>
-      <div class ="color-panel forestgreen">
-        <p class="color-label">ForestGreen</p>
-        <p class="color-rgb">#228B22</p>
-      </div>
-      <div class ="color-panel lightskyblue">
-        <p class="color-label">LightSkyBlue</p>
-        <p class="color-rgb">#87CEFA</p>
-      </div>
-      <div class ="color-panel silver">
-        <p class="color-label">Silver</p>
-        <p class="color-rgb">#87CEFA</p>
-      </div>
-      <p>These colors are used most often, you can easily copy the hex code into CSS.</p>  
+    <header>
+      <img class="logo" src="./resources/images/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
+
+      <ul class="navigation">
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#featured">Featured Tea</a></li>
+        <li><a href="#locations">Locations</a></li>
+      </ul>
+
+    </header>
+
+    <div class="missioncontainer">
+      <div id="mission">
+        <h2>Our Mission</h2>
+        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+      </div>   
     </div>
-    <!-- Font section --> 
-    <div class = "fonts-container">
-      <h2>Fonts</h2>
-      <div class = "font-panel roboto">
-        <h3>Roboto</h3>
-        <p class = "font-regular">The quick brown fox jumps over the lazy dog</p>
-        <p class = "font-bold">The quick brown fox jumps over the lazy dog</p>
-        <p class = "font-italic">The quick brown fox jumps over the lazy dog</p>
+
+    <div class="featuredcontainer">
+      <div id="featured">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea Cozy?</h4>
       </div>
-      <div class = "font-panel sourcesanspro">
-        <h3>Source Sans Pro</h3>
-        <p class = "font-regular">The quick brown fox jumps over the lazy dog</p>
-        <p class = "font-bold">The quick brown fox jumps over the lazy dog</p>
-        <p class = "font-italic">The quick brown fox jumps over the lazy dog</p>
-      </div>
-      <div class = "font-panel opensans">
-        <h3>Open Sans</h3>
-        <p class = "font-regular">The quick brown fox jumps over the lazy dog</p>
-        <p class = "font-bold">The quick brown fox jumps over the lazy dog</p>
-        <p class = "font-italic">The quick brown fox jumps over the lazy dog</p>
-      </div>
-    </div>
-    <!-- Text Styles -->
-    <div class = "style-container">
-      <h2>Text Styles</h2>
-      <div>
-        <h3 class="h1">h1: Main page heading</h3>
-        <ul>
-          <li>Font-weight: 700 (bold)</li>
-          <li>Font-size: 26px</li>
-          <li>Font-family: Roboto</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="h2">h2: section header</h3>
-        <ul>
-          <li>Font-weight: 500</li>
-          <li>Font-size: 18px</li>
-          <li>Font-family: Open Sans</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="h3">h3: Subheader</h3>
-        <ul>
-          <li>Font-weight: 400 (regular)</li>
-          <li>Font-size: 14px</li>
-          <li>Font-family: Arial</li>
-        </ul>
-      </div>
-      <div>
-        <h3  class="p">p: Paragraph text</h3>
-        <ul>
-          <li>Font-weight: 400 (regular)</li>
-          <li>Font-size: 14px</li>
-          <li>Font-family: Arial</li>
-        </ul>
+
+      <!-- Image blocks -->
+      <div class="imageblock">
+        <div class="image">
+          <img src="./resources/images/img-berryblitz.jpg" alt="Berry Blitz Tea">
+          <h4>Fall Berry Blitz Tea</h4>
+        </div>
+        <div class="image">
+          <img src="./resources/images/img-spiced-rum.jpg" alt="Spiced Rum Tea">
+          <h4>Spiced Rum Tea</h4>
+        </div>
+        <div class="image">
+          <img src="./resources/images/img-donut.jpg" alt="Seasonal Donuts">
+          <h4>Seasonal Donuts</h4>
+        </div>
+        <div class="image">
+          <img src="./resources/images/img-myrtle-ave.jpg" alt="Myrtle Ave Tea">
+          <h4>Myrtle Ave Tea</h4>
+        </div>
+        <div class="image">
+          <img src="./resources/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre Tea">
+          <h4>Bedford Bizarre Tea</h4>
+        </div>
       </div>
 
     </div>
 
+    <div class="locationcontainer">
+      <div id="locations">
+        <h2>Locations</h2>
+      </div>
 
+      <div class="locationblock">
+        <div class="location">
+          <h3 class="bold">Downtown</h3>
+          <h3>384 West 4th St</h3>
+          <h3>Suite 108</h3>
+          <h3>Portland, Maine</h3>
+        </div>
+        <div class="location">
+          <h3 class="bold">East Bayside</h3>
+          <h3>3433 Phisherman's Avenue</h3>
+          <h3>(Northwest Corner)</h3>
+          <h3>Portland, Maine</h3>
+        </div>
+        <div class="location">
+          <h3 class="bold">Oakdale</h3>
+          <h3>515 Crescent Avenue</h3>
+          <h3>Second Floor</h3>
+          <h3>Portland, Maine</h3>
+        </div>
+      </div>
+    </div>
+
+    <footer >
+      
+      <div class="footermid">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+      </div>
+
+      <div class="footerleft">
+        <h5>copyright The Tea Cozy 2022</h5>
+      </div>
+    </footer>
   </body>
+
 </html>
